@@ -1,10 +1,7 @@
-pychromecast |Build Status|
+pychromecast_legacy |Build Status|
 ===========================
 
-.. |Build Status| image:: https://travis-ci.org/balloob/pychromecast.svg?branch=master
-   :target: https://travis-ci.org/balloob/pychromecast
-
-Library for Python 2 and 3 to communicate with the Google Chromecast. It
+Library for Python 2x and 3 to communicate with the Google Chromecast. It
 currently supports:
 
 -  Auto discovering connected Chromecasts on the network
@@ -18,6 +15,16 @@ currently supports:
 *Check out* `Home Assistant <https://home-assistant.io>`_ *for a
 ready-made solution using PyChromecast for controlling and automating
 your Chromecast or Cast-enabled device like Google Home.*
+
+What's different about this and the "official" pychromecast library??
+-------------------------------------------------------------------
+
+The developer(s) of the official pychromecast library have opted to drop support for 2x versions of Python.
+
+As I use this library as a helper for a Plex Media Server addon I use, and Plex Media Server still utilizes python 2.7, I needed a proper version of it.
+
+Otherwise, I will do my very best to keep this as aligned with the "official" pcc repository as possible.
+
 
 Dependencies
 ------------
@@ -144,6 +151,7 @@ to the IGNORE\_CEC list in PyChromecast like in the example below.
 Maintainers
 -----------
 
+-  Digitalhigh (`@d8ahazard`__)
 -  Jan Borsodi (`@am0s`_)
 -  Ryan Kraus (`@rmkraus`_)
 -  Paulus Schoutsen (`@balloob`_, original author)
