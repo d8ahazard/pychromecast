@@ -1,4 +1,4 @@
-pychromecast_legacy |Build Status|
+pychromecast_legacy
 ===========================
 
 Library for Python 2x and 3 to communicate with the Google Chromecast. It
